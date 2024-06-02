@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name:log
+      - name: log
         run: |
           echo "step is 1"
       # We'll need to check out the repository so that we can edit the README.
